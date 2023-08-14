@@ -88,5 +88,6 @@ export default Breathe;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: '100%',
   },
 });

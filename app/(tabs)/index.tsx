@@ -1,19 +1,19 @@
 import { StyleSheet } from 'react-native';
 
-import { WithSkiaWeb } from '@shopify/react-native-skia/lib/module/web';
 
 import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
+import SkiaLoader from '../../components/SkiaLoader';
+
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      
-      <WithSkiaWeb
+      <SkiaLoader />
+      {/* <WithSkiaWeb
         getComponent={() => import('../../components/Breathe')}
         fallback={<Text style={{ textAlign: 'center' }}>Loading Skia...</Text>}
-      />
+      /> */}
     </View>
   );
 }

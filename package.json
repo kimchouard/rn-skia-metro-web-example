@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "postinstall": "yarn setup-skia-web"
+    "postinstall": "yarn setup-skia-web && node path-fs-canvaskit-postinstall.js"
   },
   "jest": {
     "preset": "jest-expo"
