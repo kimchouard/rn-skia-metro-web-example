@@ -1,11 +1,13 @@
-# Steps
+# React Native Skia Web Build with Metro Builder
 
-Steps to reproduce this repo:
+If you want to have React Native Skia working on the web with the Expo Router v2, you'll need the Metro web builder (instead of webpack).
+
+Here's the step required to make it work.
 
 ## Init
 
 ```bash
-# Create a boilerplace
+# Create a boilerplate if you don't have a codebase already
 npx create-expo-app@latest --template tabs@49
 
 # Install React Native Skia
